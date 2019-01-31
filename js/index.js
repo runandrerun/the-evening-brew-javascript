@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
           if (stories) {
             const storiesList = document.createElement('ul');
             const listName = document.createElement('h4');
-            listName.innerText = "Stories";
+            listName.innerText = "Stories" + " (click to preview and update)";
             const hr = document.createElement('hr');
             document.getElementById('story-index').append(hr, listName, storiesList);
             stories.forEach(story => {
